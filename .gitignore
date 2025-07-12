@@ -1,58 +1,25 @@
 # === Java specific ===
-*.class              # Java compiled class files
-*.jar                # Java archive files
-*.war                # Web archive files
-*.log                # Log files
-
-# === Maven/Gradle build folders ===
-/target/             # Maven's build folder
-/.mvn/
-/build/              # Gradle build folder (if any)
-
-# === OS/IDE files ===
-*.iml
-.idea/               # IntelliJ IDEA folder
-.vscode/             # VS Code folder
-*.swp                # Temporary swap files (Vim etc.)
-.idea
-
-# === Others ===
-.DS_Store            # macOS
-Thumbs.db            # Windows
-.env                 # Secrets/environment files
-src/main/resources/application.properties
-
-
-
-<<<<<<< HEAD
-/node_modules/
-.env
-/build/
-.DS_Store
+*.class
+*.jar
+*.war
 *.log
-.vscode/
-=======
-# === Java specific ===
-*.class              # Java compiled class files
-*.jar                # Java archive files
-*.war                # Web archive files
-*.log                # Log files
 
 # === Maven/Gradle build folders ===
-/target/             # Maven's build folder
+/target/
 /.mvn/
-/build/              # Gradle build folder (if any)
+/build/
 
 # === OS/IDE files ===
 *.iml
-.idea/               # IntelliJ IDEA folder
-.vscode/             # VS Code folder
-*.swp                # Temporary swap files (Vim etc.)
-.idea
+.idea/
+.vscode/
+*.swp
 
 # === Others ===
-.DS_Store            # macOS
-Thumbs.db            # Windows
-.env                 # Secrets/environment files
+.DS_Store
+Thumbs.db
+.env
 src/main/resources/application.properties
->>>>>>> 8f1affc190920c127d5bf9f340f25d27602d2351
+
+# === Node.js ===
+frontend/node_modules/
